@@ -1,3 +1,7 @@
+App desarrollada con Juan Francisco Perez @jfp-97 y Nicolas De Maio @nicolasdemaio.
+
+Tecnologias utilizadas: Kotlin, React, Javascript, HTML, CSS
+
 # Enunciado
 
 https://github.com/unq-ui/material/tree/master/TPs/2021s2
