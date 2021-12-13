@@ -1,0 +1,29 @@
+.songContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.songContainer:hover {
+  cursor: pointer;
+  background-color: rgb(120, 128, 120);
+}
+
+.songDescription {
+  display: flex;
+  flex-direction: row;
+}
+
+.songIndex1 {
+  width: 3rem;
+  text-align: left;
+}
+
+.songTitle1 {
+  width: 40rem;
+}
+
+.songArtist1 {
+  width: 30rem;
+}

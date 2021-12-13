@@ -1,0 +1,35 @@
+.SongTableContainer {
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+.playlistSongsContainer {
+  /* margin-top: 2rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgb(73, 73, 73);
+  display: flex;
+  justify-content: space-between;
+}
+
+.songDescriptionHeader {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.songTitle {
+  width: 40rem;
+}
+
+.songArtist {
+  width: 30rem;
+}
+
+.songIndex {
+  width: 3rem;
+}
+
+.aashe {
+  align-self: center;
+}

@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.playlistHeader {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-color: rgb(61, 61, 61);
+}
+
+.playButton {
+  margin: 1rem;
+  width: 3.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.likeButton {
+  transition: all 0.2s ease-in-out;
+}
+
+.playButton:hover {
+  transform: scale(1.1);
+}
+
+.trashButton {
+  margin: 1rem;
+  width: 3.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.trashButton:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,56 @@
+.topContainer {
+  position: relative;
+}
+
+.mainScreenContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.middleContainer {
+  padding-bottom: 4.6rem;
+}
+
+.topContainer {
+  position: sticky;
+  top: 0;
+  min-width: 100%;
+}
+
+.bottomContainer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(134, 133, 133);
+  padding: 0.2rem 0.2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.logoutButton {
+  background-color: #555555;
+  padding: 0.2rem;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.logoutButton:hover {
+  background-color: #b89797;
+  color: white;
+}
+
+.songInfo {
+  align-self: flex-start;
+}

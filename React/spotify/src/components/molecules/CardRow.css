@@ -1,0 +1,17 @@
+.container {
+  background-color: #121212;
+  padding: 0.7rem;
+  padding-left: 2rem;
+}
+
+.row-title {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

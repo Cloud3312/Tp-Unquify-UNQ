@@ -1,0 +1,41 @@
+.playlistHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  color: white;
+  width: 100%;
+  /* background-color: rgb(31, 30, 30); */
+  /* background-image: linear-gradient(to bottom, #878787, #6b6b6b, #505050, #373737, #1f1f1f); */
+}
+
+.playlistSubHeader h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.playlistSubHeader h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.playlistSubHeader p {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.playlistInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 1rem;
+}
+
+.playlistHeaderContainer img {
+  width: 220px;
+  height: 220px;
+  padding-bottom: 1rem;
+}

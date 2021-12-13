@@ -1,0 +1,35 @@
+.card {
+  background-color: rgb(31, 30, 30);
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgb(70, 68, 68);
+}
+
+.card-title {
+  color: white;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  color: rgb(158, 150, 150);
+  font-weight: 400;
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 3%;
+}
+
+.image-circle {
+  border-radius: 50%;
+}

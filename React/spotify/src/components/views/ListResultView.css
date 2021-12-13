@@ -1,0 +1,19 @@
+.listResultContainer {
+  background-color: rgb(165, 158, 158);
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+
+.resultsTitle {
+  font-size: 1.5rem;
+  background-color: #121212;
+  color: #fff;
+  font-weight: 600;
+  padding: 1rem 0rem 1rem 2rem;
+  cursor: pointer;
+}
+
+.resultsTitle:hover {
+  background-color: #0b4600;
+}

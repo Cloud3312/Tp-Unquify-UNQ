@@ -1,0 +1,43 @@
+.NotFoundContainer {
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(161, 127, 127); */
+  background-color: #888888;
+  line-height: nor;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.subheader {
+  margin-right: 3rem;
+}
+
+.subheader a {
+  display: block;
+  margin-top: 2rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 700;
+  width: 4rem;
+}
+
+.subheader a:hover {
+  color: white;
+}
+
+.NotFoundContainer img {
+  width: 40vw;
+  height: 50vh;
+}
+
+.NotFoundContainer h2 {
+  font-size: 250%;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.NotFoundContainer h3 {
+  font-size: small;
+}

@@ -1,0 +1,81 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  font-family: SansSerif, 'SF Pro Display', 'Segoe UI';
+  justify-content: center;
+  padding-top: 5rem;
+  align-items: center;
+}
+
+.login-labels {
+  padding: 1rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.title {
+  color: #20df7f;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: #f3f3f3;
+  font-size: 1.5rem;
+}
+
+.login-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 1rem;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.form-input {
+  height: 3rem;
+  width: 20rem;
+  border-radius: 8px;
+  border: 1px solid #dddfe2;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.form-input:focus {
+  border: 1px solid #1877f2;
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: #9094a9;
+}
+
+.form-input:focus::placeholder {
+  color: #cecece;
+}
+
+.divider-line {
+  margin-bottom: 1rem;
+  border: 1px solid #dddfe2;
+}
+
+.login-link {
+  transition-duration: 0.3s;
+  font-size: 0.9rem;
+  background: none;
+  border: none;
+  color: #3dae25;
+  font-weight: bold;
+  margin: auto;
+}
+
+.login-link:hover {
+  color: #36a420;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  text-decoration: underline;
+}

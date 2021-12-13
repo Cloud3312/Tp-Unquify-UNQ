@@ -1,0 +1,20 @@
+.wave-shape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-shape svg {
+  position: relative;
+  display: block;
+  width: calc(141% + 1.3px);
+  height: 7vh;
+}
+
+.wave-shape .shape-fill {
+  fill: #48e094;
+}

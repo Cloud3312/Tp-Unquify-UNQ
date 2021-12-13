@@ -1,0 +1,97 @@
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.welcome-navbar {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.left-navbar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.right-navbar {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-logo {
+    height: 5vh;
+    margin: 0 0.5rem;
+}
+
+.navbar-link {
+    margin: 0 1rem;
+    background: none;
+    color: #dcdcdc;
+    border: none;
+    font-weight: bold;
+}
+
+.navbar-link:hover {
+    color: #1ED760;
+    cursor: pointer;
+}
+
+.welcome-content-container {
+    padding-top: 13vh;
+    height: 83vh;
+    text-align: center;
+    background-color: #2941AB;
+    color: #1ED760;
+}
+
+.welcome-title {
+    font-size: 10vh;
+    font-weight: bolder;
+}
+
+.welcome-subtitle {
+    font-size: 2vh;
+    margin: 1rem;
+}
+
+.welcome-button {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    color: #2941AB;
+    background-color: #1ED760;
+    height: 5vh;
+    width: 17vh;
+    border: none;
+    border-radius: 50px;
+    margin: 2rem;
+}
+
+.welcome-button:hover {
+    background-color: #2DE26D;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.welcome-footer {
+    height: 7vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.footer-text {
+    font-weight: bold;
+    font-size: 1.3vh;
+    color: #919496;
+    margin: auto;
+}
