@@ -6,14 +6,10 @@ https://github.com/unq-ui/material/tree/master/TPs/2021s2
 
 https://github.com/unq-ui/unq-spotify
 
-## Tener en cuenta
+Para inicializar la API: Se debe abrir la carpeta api.Una vez ejecutada esa carpeta dentro de IntellIj ir a la carpeta main, ejecutar el archivo runAPIAplication.kt 
 
-Los siguientes archivos y/o carpetas no se suben al repo
+Para inicializar el Front: Se debe ir a la carpeta react y abrir la carpeta spotify desde el VSCode. Una vez dentro del VSCode, abrir la terminal y ejecutar npm install, luego npm start. 
 
-* Los archivos .iml 
-* /target
-* /.idea
-* /node_modules
-* .log
-
-Dentro de las carpetas que nosotros subimos tienen que estar su proyecto directamente, eso significa que por ejemplo dentro de la carpeta de arena espero ver el `pom.xml` y la carpeta `src`
+Una vez dentro de la app, usar el usuario de prueba: 
+  usuario: a@gmail.com
+  pass: a 
